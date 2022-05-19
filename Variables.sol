@@ -17,10 +17,10 @@ contract Variables {
 }
 
 
-    local
-        declared inside a function
-        not stored on the blockchain
-    state
-        declared outside a function
-        stored on the blockchain
-    global (provides information about the blockchain)
+    // local
+    //     declared inside a function
+    //     not stored on the blockchain
+    // state
+    //     declared outside a function
+    //     stored on the blockchain
+    // global (provides information about the blockchain)
