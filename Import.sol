@@ -16,4 +16,4 @@ contract Foo {
     string public name = "Foo";
 }
 
-this is the main contract the other ones are importing this contract 
+//this is the main contract the other ones are importing this contract 
