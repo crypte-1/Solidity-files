@@ -27,3 +27,9 @@ contract A {
         );
     }
 }
+
+delegatecall is a low level function similar to call.
+
+When contract A executes delegatecall to contract B, B's code is executed
+
+with contract A's storage, msg.sender and msg.value.
