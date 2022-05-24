@@ -34,4 +34,28 @@ contract CarFactory {
         Car car = (new Car){salt: _salt}(_owner, _model);
         cars.push(car);
     }
+
+    function create2AndSendEther(
+        address _owner,
+        string memory _model,
+        bytes32 _salt
+    ) public payable {
+        Car car = (new Car){value: msg.value, salt: _salt}(_owner, _model);
+        cars.push(car);
+    }
+
+    function getCar(uint _index)
+        public
+        view
+        returns (
+            address owner,
+            string memory model,
+            address carAddr,
+            uint balance
+        )
+    {
+        Car car = cars[_index];
+
+        return (car.owner(), car.model(), car.carAddr(), address(car).balance);
+    }
 }
