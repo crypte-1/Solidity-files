@@ -16,5 +16,5 @@ contract Child{
 
 There are two things needed when we want to call a deployed smart contract:
 
-    The ABI of the contract (provides info about functions signatures). If the contract is in the same project. you can just import it using the import keyword.
-    The address of the deployed contract.
+    1.The ABI of the contract (provides info about functions signatures). If the contract is in the same project. you can just import it using the import keyword.
+    2.The address of the deployed contract.
