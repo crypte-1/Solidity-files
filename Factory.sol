@@ -13,6 +13,7 @@ contract Child{
 }
 
 //The idea of the factory pattern is to have a contract (the factory) that will carry the mission of creating other contracts.
+// learn more about factory-pattern here => https://betterprogramming.pub/learn-solidity-the-factory-pattern-75d11c3e7d29
 
 There are two things needed when we want to call a deployed smart contract:
 
